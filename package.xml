@@ -1,6 +1,6 @@
 <package>
   <name>driver_base</name>
-  <version>1.6.3</version>
+  <version>1.6.4</version>
   <description>A framework for writing drivers that helps with runtime reconfiguration, diagnostics and self-test.
 
     This package is deprecated.</description>
@@ -12,8 +12,9 @@
   <url type="bugtracker">https://github.com/ros-drivers/driver_common/issues</url>
   <url type="repository">https://github.com/ros-drivers/driver_common</url>
 
-
   <author>Blaise Gassend</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>message_generation</build_depend>
   <build_depend>roscpp</build_depend>
