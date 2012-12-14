@@ -1,6 +1,6 @@
 <package>
   <name>driver_base</name>
-  <version>1.6.2</version>
+  <version>1.6.3</version>
   <description>A framework for writing drivers that helps with runtime reconfiguration, diagnostics and self-test.
 
     This package is deprecated.</description>
@@ -15,17 +15,22 @@
 
   <author>Blaise Gassend</author>
 
+  <build_depend>message_generation</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>self_test</build_depend>
   <build_depend>diagnostic_updater</build_depend>
   <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>self_test</run_depend>
   <run_depend>diagnostic_updater</run_depend>
   <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>std_msgs</run_depend>
+
   <test_depend>roscpp</test_depend>
   <test_depend>self_test</test_depend>
   <test_depend>diagnostic_updater</test_depend>
   <test_depend>dynamic_reconfigure</test_depend>
-
 </package>
