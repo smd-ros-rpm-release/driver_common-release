@@ -1,6 +1,6 @@
 <package>
   <name>driver_common</name>
-  <version>1.6.6</version>
+  <version>1.6.7</version>
   <description>
     The driver_common stack contains classes and tools that are useful
     throughout the driver stacks. It currently contains:
@@ -10,7 +10,7 @@
 
     timestamp_tools: Classes to help timestamp hardware events
   </description>
-  <maintainer email="chadrockey@willowgarage.com">Chad Rockey</maintainer>
+  <maintainer email="chadrockey@gmail.com">Chad Rockey</maintainer>
   <license>BSD</license>
 
   <url type="website">http://www.ros.org/wiki/driver_common</url>
