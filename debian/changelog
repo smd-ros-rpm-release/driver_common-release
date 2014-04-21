@@ -1,0 +1,93 @@
+ros-indigo-timestamp-tools (1.6.8-1saucy) saucy; urgency=high
+
+
+
+ -- Chad Rockey <chadrockey@gmail.com>  Sun, 30 Mar 2014 07:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.7-1saucy) saucy; urgency=high
+
+  * No more Willow Garage email.
+  * Contributors: Chad Rockey
+
+ -- Chad Rockey <chadrockey@gmail.com>  Wed, 21 Aug 2013 07:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.6-1saucy) saucy; urgency=high
+
+
+
+ -- Chad Rockey <chadrockey@gmail.com>  Mon, 06 May 2013 07:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.5-1saucy) saucy; urgency=high
+
+  * Removed duplicated dependancies
+    test_depend tags should only include additional dependencies required for testing.
+  * Contributors: Aaron Blasdel
+
+ -- Chad Rockey <chadrockey@gmail.com>  Tue, 22 Jan 2013 08:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.4-1saucy) saucy; urgency=high
+
+  * add missing dep to catkin
+  * Contributors: Dirk Thomas
+
+ -- Chad Rockey <chadrockey@gmail.com>  Fri, 14 Dec 2012 08:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.3-1saucy) saucy; urgency=high
+
+
+
+ -- Chad Rockey <chadrockey@gmail.com>  Thu, 13 Dec 2012 08:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.2-1saucy) saucy; urgency=high
+
+  * Version 1.6.2
+  * Removed non-existant library from timestamp_tools
+  * Contributors: William Woodall
+
+ -- Chad Rockey <chadrockey@gmail.com>  Mon, 10 Dec 2012 08:00:00 -0000
+
+ros-indigo-timestamp-tools (1.6.1-1saucy) saucy; urgency=high
+
+
+
+ -- Chad Rockey <chadrockey@gmail.com>  Sat, 08 Dec 2012 00:02:00 -0000
+
+ros-indigo-timestamp-tools (1.6.0-1saucy) saucy; urgency=high
+
+  * Wrong version number for timestamp tools.
+  * Version bump for release.
+  * Catkinized
+  * remove roslib::Header usage, bump to 1.2.5
+  * rosbuild2 taking shape
+  * Added Ubuntu platform tags to manifest
+  * driver_common: adding in brief descriptions
+  * Added license notices.
+  * Set reviewed tags on all packages.
+  * Used boost::posix_time::microseconds instead of boost::posix_time::seconds to avoid rounding problems.
+  * Rearranged condition variable in trigger matcher. No longer needs to use absolute times, and eliminated a race condition related to resetting the class.
+  * hasTimestamp was inverted in previous checkin.
+  * Added hasTimestamp method to the trigger matcher to determine if there is a timestamp waiting.
+  * Marked timestamp_tools as internal only.
+  * Marked timestamp_tools as internal only.
+  * Remove use of deprecated rosbuild macros
+  * Made trigger matcher less verbose by default.
+  * added XHTML to description
+  * Corrected Ptr to ConstPtr to make trigger_matcher callback compatible with
+    subscribe.
+  * Updated some debug messages in trigger_matcher.
+  * Split TriggerMatcher into TriggerMatcher in which data is not queued and
+    sent to a callback, and a QueuedTriggerMatcher with the previous
+    functionality of TriggerMatcher.
+  * Added a reset method to the TriggerMatcher
+  * Wrote skeleton for PeriodicTimestampMinFilter.
+  * Wrote TriggerMatcher class to synchronize exact trigger time stamps with
+    approximate timestamps incoming from hardware. Wrote self tests for it.
+  * First pass at writing the TriggerMatcher class. Duplicated the wge100 node
+    in view of redoing the time stamping code.
+  * Fixed typo in timestamp_tools manifest.
+  * Renamed timestamp-tools to timestamp_tools.
+  * Contributors: Brian Gerkey, Chad Rockey, Gassend Blaise, Ken Conley, Rob Wheeler, Troy Straszheim
+
+ -- Chad Rockey <chadrockey@gmail.com>  Fri, 07 Dec 2012 19:00:00 -0000
+
+
