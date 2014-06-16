@@ -1,3 +1,25 @@
+## driver_common (indigo) - 1.6.8-2
+
+The packages in the `driver_common` repository were released into the `indigo` distro by running `/usr/bin/bloom-release driver_common -t indigo -r indigo` on `Mon, 16 Jun 2014 21:35:49 -0000`
+
+These packages were released:
+- `driver_base`
+- `driver_common`
+- `timestamp_tools`
+
+Version of package(s) in repository `driver_common`:
+- rosdistro version: `1.6.8-1`
+- old version: `1.6.8-1`
+- new version: `1.6.8-2`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.0`
+- vcstools version: `0.1.33`
+
+
 ## driver_common (hydro) - 1.6.8-0
 
 The packages in the `driver_common` repository were released into the `hydro` distro by running `/usr/bin/bloom-release driver_common -t hydro -r hydro` on `Mon, 16 Jun 2014 21:33:09 -0000`
